@@ -3,7 +3,7 @@ import plotly.graph_objects as go
 import json
 
 # Setze das Thema auf 'light'
-st.set_page_config(page_title="Oekobilanzierung Ridepooling", layout="centered", initial_sidebar_state="auto")
+st.set_page_config(page_title="TT Muenster", layout="centered", initial_sidebar_state="auto")
 
 # Laden der GeoJSON-Datei
 with open('tischtennisplatten_muenster.geojson', 'r', encoding='utf-8') as f:
